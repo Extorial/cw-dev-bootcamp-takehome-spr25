@@ -1,21 +1,38 @@
 /* Your Styles Here */
 body{
     background-color: #49306B;
+    background-image: url("stars.jpg");
+
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("stars.jpg");
 }
 
 .card{
-    color: #ACE4AA;
-    text-align: center;
+    height: 30%;
+    width: 40%;
+
     margin: 50px;
-    padding: 5px;
-    background-color: #635380;
+    border-right: 10px solid #90708C;
+    border-bottom: 10px solid #90708C;
+    border-left: 10px solid #68035a;
+    border-top: 10px solid #68035a;
     border-radius: 5px;
-    height: 50%;
-    width: 60%;
-    border: 10px solid #90708C;
-    
+    padding: 5px;
+
+    color: #ACE4AA;
+    background-color: #635380;
+
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: auto;
+
+    border-right: 10px solid #68035a;
+    border-bottom: 10px solid #68035a;
+    border-left: 10px solid #90708C;
+    border-top: 10px solid #90708C;
+    border-radius: 25%;
 }
