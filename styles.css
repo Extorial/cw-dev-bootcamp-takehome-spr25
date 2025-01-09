@@ -6,6 +6,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    overflow:hidden;
 }
 
 .card{
@@ -20,10 +22,11 @@ body{
     border-radius: 5px;
     padding: 5px;
 
-    color: #ACE4AA;
+    color: #c1c3c1;
     background-color: #635380;
 
     text-align: center;
+    font-weight: bold;
 }
 
 img {
@@ -35,4 +38,8 @@ img {
     border-left: 10px solid #90708C;
     border-top: 10px solid #90708C;
     border-radius: 25%;
+}
+
+#name {
+    color: black;
 }
